@@ -91,5 +91,5 @@ puts
 puts "Results for switching doors;"
 puts "wins:               #{wins}"
 puts "losses:             #{losses}"
-puts "percent wins:       #{100 * wins.to_f / (wins + losses)}%"
+puts "percent wins:       #{100 * wins.to_f / num_tries}%"
 puts "good stratgey?      #{wins > no_change_wins}"
