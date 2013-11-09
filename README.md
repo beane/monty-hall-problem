@@ -4,6 +4,6 @@ Check it out!
 
 You can show the results of each trial by appending '-show' to your numerical input.
 
-Free free to do some more research on [Wikipedia].
+Free free to do some more research on [Wikipedia][monty-hall].
 
-[Wikipedia](http://en.wikipedia.org/wiki/Monty_Hall_problem)
+[monty-hall]: http://en.wikipedia.org/wiki/Monty_Hall_problem
