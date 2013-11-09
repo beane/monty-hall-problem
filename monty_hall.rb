@@ -86,7 +86,7 @@ puts "Results for not switching doors:"
 puts "wins w/o change:    #{no_change_wins}"
 puts "losses:             #{num_tries - no_change_wins}"
 puts "percent wins:       #{100 * no_change_wins.to_f / num_tries}%"
-puts "good stratgey?      #{no_change_wins > no_change_wins}"
+puts "good stratgey?      #{no_change_wins > wins}"
 puts
 puts "Results for switching doors;"
 puts "wins:               #{wins}"
