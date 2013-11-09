@@ -71,9 +71,9 @@ num_tries, show = prompt_for_num_tries
   
   if show
     puts "Run #{i+1}:"
-    puts "Door 1: #{doors[0]}"
-    puts "Door 2: #{doors[1]}"
-    puts "Door 3: #{doors[2]}"
+    puts "\tDoor 1: #{doors[0]}"
+    puts "\tDoor 2: #{doors[1]}"
+    puts "\tDoor 3: #{doors[2]}"
     puts "\tfirst pick: #{doors[first_guess]}"
     puts "\tsecond pick: #{doors[second_guess]}"
   end
