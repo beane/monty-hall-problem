@@ -69,16 +69,16 @@ num_tries, show = prompt_for_num_tries
   reveal_random_goat(doors, first_guess) # changes the array
   second_guess = pick_new_door(doors, first_guess)
   
+  doors[second_guess] == "car" ? wins += 1 : losses += 1
+  
   if show
-    puts "Run #{i+1}:"
+    puts "Trial #{i+1}:"
     puts "\tDoor 1: #{doors[0]}"
     puts "\tDoor 2: #{doors[1]}"
     puts "\tDoor 3: #{doors[2]}"
     puts "\tfirst pick: #{doors[first_guess]}"
     puts "\tsecond pick: #{doors[second_guess]}"
   end
-  
-  doors[second_guess] == "car" ? wins += 1 : losses += 1
 end
 
 puts
