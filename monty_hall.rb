@@ -48,7 +48,7 @@ end
 
 def to_boolean(str)
   return false if str.nil?
-  str.downcase == "show" ? true : false
+  str.downcase == "show"
 end
 
 no_change_wins = 0
